@@ -1,6 +1,6 @@
 <div align="center">
       <h1> 
-            <img src="https://github.com/user-attachments/assets/5fc7d5a9-ef49-4f80-8a7c-33df13160f51" width="175px">
+            <img src="https://github.com/user-attachments/assets/fc89a2e1-1f22-4d6a-a375-4c8a982acab7" width="165px">
             <br/>
             NumARt
             <br/> 
