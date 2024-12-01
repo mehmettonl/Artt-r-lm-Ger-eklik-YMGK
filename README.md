@@ -31,7 +31,7 @@
 - ✅ **Trello Pano Oluşturuldu :** [Trello Linki](https://trello.com/b/FH85iuon/numart)
 
 ### 2. **Hafta** 
-- ✅ **Renk Paleti Seçildi :** [Coolors Linki](https://coolors.co/7f00ff-0097b2-ffffff-000000)
+- ✅ **Renk Paleti Seçildi :** [Coolors Linki](https://coolors.co/296894-0097b2-ffffff-000000-f0f3f8)
 - ✅ **Logo Tasarlandı:** [Canva Linki](https://www.canva.com/design/DAGX7ioqYME/qOzGXVfrwX77Gl51pkdDuw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 - ✅ **Instagram Hesabı Oluşturuldu :** [Instagram]()
 
