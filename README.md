@@ -37,9 +37,9 @@
 
 ### 3. **Hafta**  
 - ✅ **Proje Android Studio'da Başlatıldı ve Repoya Yüklendi :** [GitHub Linki](https://github.com/achelmasoudi/NumARt)
-- **Gereksinim Analizi Dokümanı:** [Google Drive Linki]()  
-- **UML Diyagramları:** [Google Drive Linki]()  
-- **SWOT Analizi:** [Canva Linki](https://www.canva.com/design/DAGYC6DlrKk/2jDLi3K1YkIMi8Gjh6Ngwg/edit?utm_content=DAGYC6DlrKk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- ✅ **Gereksinim Analizi Dokümanı:** [Google Drive Linki]()  
+- ✅ **UML Diyagramları:** [Google Drive Linki]()  
+- ✅ **SWOT Analizi:** [Canva Linki](https://www.canva.com/design/DAGYC6DlrKk/2jDLi3K1YkIMi8Gjh6Ngwg/edit?utm_content=DAGYC6DlrKk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 
 ### 4. **Hafta**
