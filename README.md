@@ -1,6 +1,6 @@
 <div align="center">
       <h1> 
-            <img src="https://github.com/user-attachments/assets/fc89a2e1-1f22-4d6a-a375-4c8a982acab7" width="165px">
+            <img src="https://github.com/user-attachments/assets/347c3f22-a438-4e07-8472-11b08ca334e4" width="165px">
             <br/>
             NumARt
             <br/> 
@@ -31,8 +31,8 @@
 - ✅ **Trello Pano Oluşturuldu :** [Trello Linki](https://trello.com/b/FH85iuon/numart)
 
 ### 2. **Hafta** 
-- ✅ **Renk Paleti Seçildi :** [Coolors Linki](https://coolors.co/296894-0097b2-ffffff-000000-f0f3f8)
-- ✅ **Logo Tasarlandı:** [Canva Linki](https://www.canva.com/design/DAGX7ioqYME/qOzGXVfrwX77Gl51pkdDuw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+- ✅ **Renk Paleti Seçildi :** [Coolors Linki](https://coolors.co/palette/37a000-f0f3f8-000000-ffffff)
+- ✅ **Logo Tasarlandı :** [Canva Linki](https://www.canva.com/design/DAGX7ioqYME/qOzGXVfrwX77Gl51pkdDuw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 - ✅ **Instagram Hesabı Oluşturuldu :** [Instagram]()
 
 ### 3. **Hafta**  
@@ -40,7 +40,6 @@
 - ✅ **Gereksinim Analizi Dokümanı:** [Google Drive Linki]()  
 - ✅ **UML Diyagramları:** [Google Drive Linki]()  
 - ✅ **SWOT Analizi:** [Canva Linki](https://www.canva.com/design/DAGYC6DlrKk/2jDLi3K1YkIMi8Gjh6Ngwg/edit?utm_content=DAGYC6DlrKk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
-
 
 ### 4. **Hafta**
 - **Web Sayfası Oluşturuldu:** [NumARt Web Sitesi]()
