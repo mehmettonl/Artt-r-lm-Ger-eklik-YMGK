@@ -46,7 +46,9 @@
 
 ### 4. **Hafta**
 - ✅ **Web Sayfası Oluşturuldu :** [NumARt Web Sitesi](https://achelmasoudi.github.io/NumArt_WebSite/)
-- ✅ **Kullanıcı arayüzleri (frontend)**
+- ✅ **Kullanıcı arayüzleri (frontend) :**
+  - Mobil için : [Pdf Linki](https://github.com/user-attachments/files/18053910/Mobil.pdf)
+  - Tablet için : [Pdf Linki](https://github.com/user-attachments/files/18053912/Tablet.pdf)
      
 ### 5. **Hafta**  
 - ✅ **Firebase Bağlantısı :**  
