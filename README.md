@@ -33,7 +33,7 @@
 ### 2. **Hafta** 
 - ✅ **Renk Paleti Seçildi :** [Coolors Linki](https://coolors.co/palette/37a000-f0f3f8-000000-ffffff)
 - ✅ **Logo Tasarlandı :** [Canva Linki](https://www.canva.com/design/DAGX7ioqYME/qOzGXVfrwX77Gl51pkdDuw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
-- ✅ **Instagram Hesabı Oluşturuldu :** [Instagram]()
+- ✅ **Instagram Hesabı Oluşturuldu :** [Instagram](https://www.instagram.com/num_ar_t)
 
 ### 3. **Hafta**  
 - ✅ **Proje Android Studio'da Başlatıldı ve Repoya Yüklendi :** [GitHub Linki](https://github.com/achelmasoudi/NumARt)
