@@ -42,15 +42,27 @@
 - ✅ **SWOT Analizi :** [Canva Linki](https://www.canva.com/design/DAGYC6DlrKk/2jDLi3K1YkIMi8Gjh6Ngwg/edit?utm_content=DAGYC6DlrKk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 ### 4. **Hafta**
-- **Web Sayfası Oluşturuldu:** [NumARt Web Sitesi]()
-- **TSH FORMU DOLDURULDU.**
-  
+- ✅ **Web Sayfası Oluşturuldu :** [NumARt Web Sitesi]()
+- ✅ **Kullanıcı arayüzleri (frontend) :** [Pdf Linki]()
+- ✅ **TSH FORMU DOLDURULDU.**
+     
 ### 5. **Hafta**  
-- **Frontend Kodlaması:**
+- ✅ **Firebase Bağlantısı :**  
+  - Login/Register İşlemleri.
+  - Firebase Authentication entegrasyonu.
+  - Kullanıcı Veritabanı Yapısı ve Firebase Bağlantısı (UserProgress, Level Status vb.).
 
-### 6. **Hafta**  
-- **Firebase Bağlantısı:**  
-  - Login/Register İşlemleri  
+### 6. **Hafta**
+- ✅ **AR Entegrasyonu :**  
+  - AR SceneView Library Kullanımı ( 3D modelleri AR'da gösterme ve Modellerin sahnede doğru şekilde konumlanması ).
+  - AR matematiksel işlemler entegrasyonu ( İlk sayılar, işlem simgeleri ve sonuçların AR'da gösterimi ).
+- ✅ **Matematiksel İşlemler Geliştirme :**  
+  - Matematiksel operasyonlar (toplama, çıkarma, çarpma, bölme) için algoritmalar.
+  - Modellerin birbirine etkileşimli şekilde bağlanması.
 
 ### 7. **Hafta**  
-- **AR Entegrasyonu:**    
+- ✅ **UserProgress Takibi :**
+  - Firebase üzerinden kullanıcı ilerlemesinin takibi.
+  - Hedeflerin açılması ve her seviyenin takibi.
+- ✅ **Web Sayfası ve APK Hazırlığı.**
+- ✅ **Son düzenlemeler, optimizasyonlar.**
