@@ -1,1 +1,1 @@
-# Artt-r-lm-Ger-eklik-YMGK
+Arttirilmis Gerceklik - YMGK
