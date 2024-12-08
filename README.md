@@ -87,3 +87,11 @@
 |     Game Activity     |     Game Activity ( Win )     |     Game Activity ( Lose )     |
 
 <br/> 
+
+### Kullanılan Teknolojiler 🛠️
+- 📊 **Veri Yönetimi :** Firebase Realtime Database, kullanıcı ilerlemesi ve verilerin gerçek zamanlı senkronizasyonu için; Firebase Storage, 3D modellerin depolanması ve yönetilmesi için kullanıldı.
+- 💻 **Geliştirme Ortamı :** Android Studio, Kotlin ile uygulama geliştirme.
+- 🖌️ **Kullanıcı Arayüzü Framework'ü :** XML Layouts, kullanıcı arayüzü tasarımı için kullanıldı.
+- 🧠 **AR SDK :** Arsceneview, artırılmış gerçeklik özelliklerinin entegrasyonu için kullanıldı.
+- 🖼️ **3D Modeller :** Tinkercad, GLB formatındaki 3D modellerin oluşturulmasında kullanıldı.
+- 🔒 **Kimlik Doğrulama :** Firebase Authentication, güvenli kullanıcı girişi ve kayıt işlemleri için kullanıldı.
