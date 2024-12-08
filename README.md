@@ -44,7 +44,6 @@
 ### 4. **Hafta**
 - ✅ **Web Sayfası Oluşturuldu :** [NumARt Web Sitesi]()
 - ✅ **Kullanıcı arayüzleri (frontend) :** [Pdf Linki]()
-- ✅ **TSH FORMU DOLDURULDU.**
      
 ### 5. **Hafta**  
 - ✅ **Firebase Bağlantısı :**  
