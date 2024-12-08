@@ -1,11 +1,10 @@
 Arttirilmis Gerceklik - YMGK
 
 1. HAFTA
-Projeye ait trello panosu  https://trello.com/b/B6tHItNl/ar-projesi-vize-final
-Projenin ismi  Hesap Fun
 
-
-Proje sosyal medya hesabı oluşturuldu https://www.instagram.com/carptoplabolcikar/
+Projeye ait trello panosu = https://trello.com/b/B6tHItNl/ar-projesi-vize-final
+Projenin ismi = Hesap Fun
+Proje sosyal medya hesabı = https://www.instagram.com/carptoplabolcikar/
 
 
 2.HAFTA
