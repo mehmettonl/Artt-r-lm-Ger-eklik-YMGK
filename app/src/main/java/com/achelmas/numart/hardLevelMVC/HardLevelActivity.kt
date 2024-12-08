@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.achelmas.numart.R
 import com.achelmas.numart.easyLevelMVC.AdapterOfEasyLvl
 import com.achelmas.numart.easyLevelMVC.ModelOfEasyLvl
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -25,10 +26,13 @@ class HardLevelActivity : AppCompatActivity() {
     private lateinit var adapter: AdapterOfHardLvl
     private lateinit var hardLvlList: ArrayList<ModelOfHardLvl>
     private lateinit var myReference: DatabaseReference
+    private var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hard_level)
+
+        mAuth = FirebaseAuth.getInstance()
 
         // Initialize Views
         toolbar = findViewById(R.id.hardLvlActivity_toolBarId)
@@ -48,30 +52,37 @@ class HardLevelActivity : AppCompatActivity() {
 
     private fun getDataFromFirebase() {
         hardLvlList = ArrayList()
-
         myReference = FirebaseDatabase.getInstance().reference
 
-        var query: Query = myReference.child("Hard Level")
-        query.addListenerForSingleValueEvent(object : ValueEventListener {
-            override fun onDataChange(dataSnapshot: DataSnapshot) {
+        val userId = mAuth!!.currentUser!!.uid
+        val userProgressRef = myReference.child("UserProgress").child(userId).child("A3HardLevel")
+        val targetsRef = myReference.child("Hard Level")
 
-                for ( snapshot: DataSnapshot in dataSnapshot.children) {
-                    var modelOfHardLvl: ModelOfHardLvl = ModelOfHardLvl()
+        // Kullanıcı ilerlemesini ve hedefleri paralel olarak çek
+        userProgressRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(userProgressSnapshot: DataSnapshot) {
+                targetsRef.addListenerForSingleValueEvent(object : ValueEventListener {
+                    override fun onDataChange(targetsSnapshot: DataSnapshot) {
+                        for (snapshot: DataSnapshot in targetsSnapshot.children) {
+                            val model = ModelOfHardLvl()
+                            model.target = snapshot.child("Target").value.toString()
+                            model.targetNumber = snapshot.child("Target Number").value.toString()
+                            model.number1 = snapshot.child("Number1").value.toString()
+                            model.number2 = snapshot.child("Number2").value.toString()
+                            model.number3 = snapshot.child("Number3").value.toString()
+                            model.number4 = snapshot.child("Number4").value.toString()
 
-                    modelOfHardLvl.target = snapshot.child("Target").value.toString()
-                    modelOfHardLvl.targetNumber = snapshot.child("Target Number").value.toString()
-                    modelOfHardLvl.number1 = snapshot.child("Number1").value.toString()
-                    modelOfHardLvl.number2 = snapshot.child("Number2").value.toString()
-                    modelOfHardLvl.number3 = snapshot.child("Number3").value.toString()
-                    modelOfHardLvl.number4 = snapshot.child("Number4").value.toString()
-                    modelOfHardLvl.number5 = snapshot.child("Number5").value.toString()
+                            // İlk hedef her zaman açık olacak
+                            model.isUnlocked = userProgressSnapshot.child(model.targetNumber).value == true || model.targetNumber == "1"
+                            hardLvlList.add(model)
+                        }
 
-                    hardLvlList.add(modelOfHardLvl)
-                }
-
-                adapter = AdapterOfHardLvl(this@HardLevelActivity, hardLvlList)
-                recyclerView.adapter = adapter
-                adapter.notifyDataSetChanged()
+                        adapter = AdapterOfHardLvl(this@HardLevelActivity, hardLvlList)
+                        recyclerView.adapter = adapter
+                        adapter.notifyDataSetChanged()
+                    }
+                    override fun onCancelled(error: DatabaseError) {}
+                })
             }
             override fun onCancelled(error: DatabaseError) {}
         })

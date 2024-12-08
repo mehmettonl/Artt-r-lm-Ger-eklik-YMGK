@@ -24,9 +24,30 @@ class AdapterOfHardLvl(var activity: Activity, var hardLvlList: ArrayList<ModelO
         val model: ModelOfHardLvl = hardLvlList.get(position)
         holder.targetOfStar.text = model.target
         holder.targetOfTitle.text = "${model.targetNumber}. ${activity.resources.getString(R.string.our_target)} ${model.target}"
+
+        if (model.isUnlocked) {
+            // Hedef açık
+            holder.levelButton.isEnabled = true
+            holder.levelButton.alpha = 1.0f // Normal görünüm
+            holder.levelButton.setOnClickListener {
+                val intent = Intent(activity, GameActivity::class.java)
+                intent.putExtra("Target", model.target)
+                intent.putExtra("Target Number", model.targetNumber)
+                intent.putExtra("Number1", model.number1)
+                intent.putExtra("Number2", model.number2)
+                intent.putExtra("Number3", model.number3)
+                intent.putExtra("Number4", model.number4)
+                activity.startActivity(intent)
+            }
+        } else {
+            // Hedef kapalı
+            holder.levelButton.isEnabled = false
+            holder.levelButton.alpha = 0.5f // Şeffaf görünüm
+            holder.levelButton.setOnClickListener(null) // Tıklamayı kaldır
+        }
     }
 
-    inner class MyViewHolder(i: View) : RecyclerView.ViewHolder(i) , View.OnClickListener {
+    inner class MyViewHolder(i: View) : RecyclerView.ViewHolder(i) {
         var targetOfStar: TextView
         var targetOfTitle: TextView
         var levelButton: CardView
@@ -35,24 +56,7 @@ class AdapterOfHardLvl(var activity: Activity, var hardLvlList: ArrayList<ModelO
             targetOfStar = i.findViewById(R.id.levelsCardItem_targetOfStarId)
             targetOfTitle = i.findViewById(R.id.levelsCardItem_targetOfTitleId)
             levelButton = i.findViewById(R.id.levelsCardItem_buttonId)
-
-            levelButton.setOnClickListener(this)
         }
 
-        override fun onClick(p0: View?) {
-            var intent = Intent(activity , GameActivity::class.java)
-            //The position of each target
-            var position: Int = getLayoutPosition()
-            var modelOfHardLvl = hardLvlList.get(position)
-
-            intent.putExtra("Target" , modelOfHardLvl.target)
-            intent.putExtra("Number1", modelOfHardLvl.number1)
-            intent.putExtra("Number2" , modelOfHardLvl.number2)
-            intent.putExtra("Number3" , modelOfHardLvl.number3)
-            intent.putExtra("Number4" , modelOfHardLvl.number4)
-            intent.putExtra("Number5" , modelOfHardLvl.number5)
-
-            activity.startActivity(intent)
-        }
     }
 }

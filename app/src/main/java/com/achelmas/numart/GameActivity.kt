@@ -128,10 +128,10 @@ class GameActivity : AppCompatActivity() {
     private fun addNumberButtons() {
         // Modellerin farklı pozisyonlara yerleştirilmesi (x, y, z ekseninde farklılık)
         val positions = listOf(
-            Position(-0.7f, 0.3f, -1.5f),  // Daha sola ve yukarı
-            Position(0.7f, 0.3f, -1.5f),   // Daha sağa ve yukarı
-            Position(-0.7f, -0.3f, -2.0f), // Daha sola ve aşağı
-            Position(0.7f, -0.3f, -2.0f)   // Daha sağa ve aşağı
+            Position(-1.0f, 0.5f, -1.5f), // Sol üst
+            Position(1.0f, 0.5f, -1.5f),  // Sağ üst
+            Position(-1.0f, -0.5f, -2.0f), // Sol alt
+            Position(1.0f, -0.5f, -2.0f)   // Sağ alt
         )
 
         // Her bir sayıyı ve pozisyonunu ekleyelim
@@ -288,7 +288,7 @@ class GameActivity : AppCompatActivity() {
             }
 
             nextButton.setOnClickListener {
-                val intent = Intent(this, EasyLevelActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
                 startActivity(intent)
                 finish()

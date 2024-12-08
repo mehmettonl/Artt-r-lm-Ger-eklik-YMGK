@@ -24,9 +24,30 @@ class AdapterOfMediumLvl(var activity: Activity, var mediumLvlList: ArrayList<Mo
         val model: ModelOfMediumLvl = mediumLvlList.get(position)
         holder.targetOfStar.text = model.target
         holder.targetOfTitle.text = "${model.targetNumber}. ${activity.resources.getString(R.string.our_target)} ${model.target}"
+
+        if (model.isUnlocked) {
+            // Hedef açık
+            holder.levelButton.isEnabled = true
+            holder.levelButton.alpha = 1.0f // Normal görünüm
+            holder.levelButton.setOnClickListener {
+                val intent = Intent(activity, GameActivity::class.java)
+                intent.putExtra("Target", model.target)
+                intent.putExtra("Target Number", model.targetNumber)
+                intent.putExtra("Number1", model.number1)
+                intent.putExtra("Number2", model.number2)
+                intent.putExtra("Number3", model.number3)
+                intent.putExtra("Number4", model.number4)
+                activity.startActivity(intent)
+            }
+        } else {
+            // Hedef kapalı
+            holder.levelButton.isEnabled = false
+            holder.levelButton.alpha = 0.5f // Şeffaf görünüm
+            holder.levelButton.setOnClickListener(null) // Tıklamayı kaldır
+        }
     }
 
-    inner class MyViewHolder(i: View) : RecyclerView.ViewHolder(i) , View.OnClickListener {
+    inner class MyViewHolder(i: View) : RecyclerView.ViewHolder(i) {
         var targetOfStar: TextView
         var targetOfTitle: TextView
         var levelButton: CardView
@@ -36,23 +57,7 @@ class AdapterOfMediumLvl(var activity: Activity, var mediumLvlList: ArrayList<Mo
             targetOfTitle = i.findViewById(R.id.levelsCardItem_targetOfTitleId)
             levelButton = i.findViewById(R.id.levelsCardItem_buttonId)
 
-            levelButton.setOnClickListener(this)
         }
 
-        override fun onClick(p0: View?) {
-            var intent = Intent(activity , GameActivity::class.java)
-            //The position of each target
-            var position: Int = getLayoutPosition()
-            var modelOfMediumLvl = mediumLvlList.get(position)
-
-            intent.putExtra("Target" , modelOfMediumLvl.target)
-            intent.putExtra("Number1", modelOfMediumLvl.number1)
-            intent.putExtra("Number2" , modelOfMediumLvl.number2)
-            intent.putExtra("Number3" , modelOfMediumLvl.number3)
-            intent.putExtra("Number4" , modelOfMediumLvl.number4)
-            intent.putExtra("Number5" , modelOfMediumLvl.number5)
-
-            activity.startActivity(intent)
-        }
     }
 }
