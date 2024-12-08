@@ -18,6 +18,10 @@
 
    <br/> 
 
+![Feature graphic](https://github.com/user-attachments/assets/49d448bd-b97a-40f0-8f92-23177ca970d2)
+   <br/> 
+
+
 ## 📌 **Proje Hakkında** 
 **NumARt ( Numbers in Augmented Reality Technology (AR) )**, 5-12 yaş arası çocuklara matematik öğretmeyi hedefleyen, artırılmış gerçeklik (AR) teknolojisini kullanan yenilikçi bir mobil uygulamadır. NumARt, çocuklara eğlenceli ve etkileşimli bir öğrenme deneyimi sunarken matematik becerilerini geliştirir.
 
