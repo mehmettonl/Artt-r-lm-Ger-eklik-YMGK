@@ -45,8 +45,8 @@
 - ✅ **SWOT Analizi :** [Canva Linki](https://www.canva.com/design/DAGYC6DlrKk/2jDLi3K1YkIMi8Gjh6Ngwg/edit?utm_content=DAGYC6DlrKk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 ### 4. **Hafta**
-- ✅ **Web Sayfası Oluşturuldu :** [NumARt Web Sitesi]()
-- ✅ **Kullanıcı arayüzleri (frontend) :** [Pdf Linki]()
+- ✅ **Web Sayfası Oluşturuldu :** [NumARt Web Sitesi](https://achelmasoudi.github.io/NumArt_WebSite/)
+- ✅ **Kullanıcı arayüzleri (frontend)**
      
 ### 5. **Hafta**  
 - ✅ **Firebase Bağlantısı :**  
