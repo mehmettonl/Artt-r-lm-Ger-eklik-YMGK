@@ -3,7 +3,7 @@
     <style name="Base.Theme.NumARt" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryVariant">@color/secondaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Primary brand color. -->
         <item name="colorOnSecondary">@color/black</item>
@@ -22,16 +22,12 @@
 
     <!-- Ripple color when click on a view -->
     <style name="SelectableItemTheme">
-        <item name="colorControlHighlight">#36296894</item>
+        <item name="colorControlHighlight">#3E37A000</item>
     </style>
     <style name="SelectableItemBackground">
         <item name="android:theme">@style/SelectableItemTheme</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-
-
-
-
 
     <!-- Bottom Sheet Dialog Style -->
     <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
@@ -40,6 +36,7 @@
     <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="android:background">@android:color/transparent</item>
     </style>
+
 
     <!-- Style of Toolbar-->
     <style name="styleOfToolbar" >

@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.achelmas.numart"
-        minSdk = 23
+        minSdk = 24
         //noinspection EditedTargetSdkVersion
         targetSdk = 35
         versionCode = 1
@@ -54,4 +54,22 @@ dependencies {
     // Lottie Lib for Animation
     implementation("com.airbnb.android:lottie:6.1.0")
 
+    // Cicle Image
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    // Camera X
+    implementation("androidx.camera:camera-core:1.4.0")
+    implementation("androidx.camera:camera-camera2:1.4.0")
+    implementation("androidx.camera:camera-lifecycle:1.4.0")
+    implementation("androidx.camera:camera-video:1.4.0")
+    implementation("androidx.camera:camera-view:1.4.0")
+    implementation("androidx.camera:camera-extensions:1.4.0")
+    implementation("androidx.concurrent:concurrent-futures:1.2.0")
+    implementation("com.google.guava:guava:32.1.3-jre")
+
+    // Konfetti Lib for Animation
+    implementation("nl.dionsegijn:konfetti-xml:2.0.4")
+
+    // AR
+    implementation("io.github.sceneview:arsceneview:0.9.8")
 }

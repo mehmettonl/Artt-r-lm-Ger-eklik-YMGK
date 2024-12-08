@@ -20,6 +20,10 @@ class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Set language
+        LanguageManager.loadLocale(this)
+
         setContentView(R.layout.activity_splash_screen)
 
         // Set navigation bar color

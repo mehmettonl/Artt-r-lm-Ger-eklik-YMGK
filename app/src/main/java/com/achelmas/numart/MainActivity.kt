@@ -9,10 +9,14 @@ import android.text.style.ForegroundColorSpan
 import android.view.View
 import android.widget.RelativeLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
+import com.achelmas.numart.easyLevelMVC.EasyLevelActivity
+import com.achelmas.numart.hardLevelMVC.HardLevelActivity
+import com.achelmas.numart.mediumLevelMVC.MediumLevelActivity
 import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
@@ -28,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var toolbar: Toolbar
     private lateinit var fullNameTxtView: TextView
     private lateinit var fullName: String
+    private lateinit var age: String
     private lateinit var easyLevelBtn : RelativeLayout
     private lateinit var mediumLevelBtn : RelativeLayout
     private lateinit var hardLevelBtn : RelativeLayout
@@ -37,6 +42,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Set language
+        LanguageManager.loadLocale(this)
+
         setContentView(R.layout.activity_main)
 
         mAuth = FirebaseAuth.getInstance()
@@ -58,16 +67,21 @@ class MainActivity : AppCompatActivity() {
 
         // Handle button clicks
         easyLevelBtn.setOnClickListener {
-//            var intent = Intent(baseContext , EasyLevelActivity::class.java)
-//            startActivity(intent)
+            var intent = Intent(baseContext , EasyLevelActivity::class.java)
+            startActivity(intent)
         }
         mediumLevelBtn.setOnClickListener {
-//            var intent = Intent(baseContext , MediumLevelActivity::class.java)
-//            startActivity(intent)
+            var intent = Intent(baseContext , MediumLevelActivity::class.java)
+            startActivity(intent)
         }
         hardLevelBtn.setOnClickListener {
-//            var intent = Intent(baseContext , HardLevelActivity::class.java)
-//            startActivity(intent)
+            var intent = Intent(baseContext , HardLevelActivity::class.java)
+            startActivity(intent)
+        }
+
+        val userId = mAuth!!.currentUser?.uid
+        if (userId != null) {
+            setInitialTargetProgress(userId)  // Kullanıcının ilerlemesini Firebase'e kaydeder
         }
     }
 
@@ -79,8 +93,8 @@ class MainActivity : AppCompatActivity() {
         reference.child("fullname").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 // Get the value from the dataSnapshot
-                fullName = snapshot.getValue(String::class.java)!! + "!"
-                val text =  "Hello, ${fullName} 👋"
+                fullName = snapshot.getValue(String::class.java)!!
+                val text =  "${resources.getString(R.string.welcome)}, ${fullName}! 👋"
 
                 // Create a SpannableString with the desired text
                 val spannable = SpannableString(text)
@@ -98,16 +112,24 @@ class MainActivity : AppCompatActivity() {
             override fun onCancelled(error: DatabaseError) {
             }
         })
+
+        // Use ValueEventListener to get the value of the "age" child
+        reference.child("age").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                // Get the value from the dataSnapshot
+                age = snapshot.getValue(String::class.java)!!
+            }
+            override fun onCancelled(error: DatabaseError) {}
+        })
     }
 
     private fun itemsOfToolbar() {
         toolbar.setOnMenuItemClickListener { item ->
             when (item.itemId) {
-//                R.id.profileId -> {
-//                    true
-//                }
                 R.id.settingsId -> {
                     var intent = Intent(baseContext , SettingsActivity::class.java)
+                    intent.putExtra("fullname",fullName)
+                    intent.putExtra("age",age)
                     startActivity(intent)
                     true
                 }
@@ -115,4 +137,50 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    fun setInitialTargetProgress(userId: String) {
+        val userProgressRef = FirebaseDatabase.getInstance().reference
+            .child("UserProgress")
+            .child(userId)  // Kullanıcıya özel
+
+        val initialProgress = mapOf(
+            "A1EasyLevel" to mapOf(
+                "1" to true,   // İlk hedef açık
+                "2" to false,  // İkinci hedef kapalı
+                "3" to false,   // Üçüncü hedef kapalı
+                "4" to false,
+                "5" to false,
+                "6" to false,
+                "7" to false,
+                "8" to false
+            ),
+            "A2MediumLevel" to mapOf(
+                "1" to false,   // İlk hedef açık
+                "2" to false,  // İkinci hedef kapalı
+                "3" to false,   // Üçüncü hedef kapalı
+                "4" to false,
+                "5" to false,
+                "6" to false,
+                "7" to false,
+                "8" to false
+            ),
+            "A3HardLevel" to mapOf(
+                "1" to false,   // İlk hedef açık
+                "2" to false,  // İkinci hedef kapalı
+                "3" to false,   // Üçüncü hedef kapalı
+                "4" to false,
+                "5" to false,
+                "6" to false,
+                "7" to false,
+                "8" to false
+            )
+        )
+
+        // Firebase'e kaydetme işlemi
+        userProgressRef.setValue(initialProgress)
+            .addOnSuccessListener {}
+            .addOnFailureListener {}
+    }
+
+
 }
