@@ -1,7 +1,6 @@
 Arttirilmis Gerceklik - YMGK
 
 1. HAFTA
-
 Projeye ait trello panosu = https://trello.com/b/B6tHItNl/ar-projesi-vize-final
 Projenin ismi = Hesap Fun
 Proje sosyal medya hesabı = https://www.instagram.com/carptoplabolcikar/
@@ -15,7 +14,7 @@ Proje Kotlin teknolojisiyle yazıldı.
 Projenin gereksinim analizi dokümanı, UML Diyagramları ve SWOT analizi yapıldı.
 
 
-5.HAFTA
+4.HAFTA
 Uygulama Arayüzü XML'de kodlanmıştır.
 
 
