@@ -69,3 +69,21 @@
   - Hedeflerin açılması ve her seviyenin takibi.
 - ✅ **Web Sayfası ve APK Hazırlığı.**
 - ✅ **Son düzenlemeler, optimizasyonlar.**
+
+<br/> 
+
+### Some Screens
+
+| <img src="https://github.com/user-attachments/assets/8ed7c1dc-2d02-4fd6-bb35-a56f12506a37" width="250"/>| <img src="https://github.com/user-attachments/assets/d8e56953-0483-4d6e-992d-2d95578b8dd0" width="250"/> | <img src="https://github.com/user-attachments/assets/e46b235c-40d8-45ec-93f9-0ffa58bdbd7c" width="250"/> | <img src="https://github.com/user-attachments/assets/27e0959f-49a1-47e2-8fd7-a2c132cc4fde" width="250"/> |
+| :-------------: | :-------------:  | :-------------:  | :-------------:  |
+|     Splash Screen     |     Log in     |     Sign up      |     Forgot Password     |
+
+| <img src="https://github.com/user-attachments/assets/671e4d8b-f652-4cd0-ae45-7d9a7cf170f0" width="250"/>| <img src="https://github.com/user-attachments/assets/b585af7b-8354-4a2e-8a03-dffa8d37531c" width="250"/> | <img src="https://github.com/user-attachments/assets/f6fded46-949e-4df5-8160-f633f4218ebf" width="250"/> | <img src="https://github.com/user-attachments/assets/cfac257d-ea00-4c60-8c5b-8a8601e0a060" width="250"/> |
+| :-------------: | :-------------:  | :-------------:  | :-------------:  |
+|     Main     |     Your Targets     |     Profile     |     App Language     |
+
+| <img src="https://github.com/user-attachments/assets/96db4210-e0aa-4791-8f96-dfb1f7619782" width="250"/>| <img src="https://github.com/user-attachments/assets/a977d3d8-3431-49ec-9797-96ebaee998e7" width="250"/> | <img src="https://github.com/user-attachments/assets/29c016e2-ba9b-4e7f-8408-9bc4063607ad" width="250"/> |
+| :-------------: | :-------------:  | :-------------:  |
+|     Game Activity     |     Game Activity ( Win )     |     Game Activity ( Lose )     |
+
+<br/> 
