@@ -49,6 +49,7 @@
 - ✅ **Kullanıcı arayüzleri (frontend) :**
   - Mobil için : [Pdf Linki](https://github.com/user-attachments/files/18053910/Mobil.pdf)
   - Tablet için : [Pdf Linki](https://github.com/user-attachments/files/18053912/Tablet.pdf)
+- ✅ **THS Formu Dolduruldu.**
      
 ### 5. **Hafta**  
 - ✅ **Firebase Bağlantısı :**  
