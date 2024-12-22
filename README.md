@@ -91,7 +91,7 @@
 <br/> 
 
 ### Demo
-https://github.com/user-attachments/assets/a947e8f5-f1b6-4733-8a7b-5ac5646d4bda
+https://github.com/user-attachments/assets/7fe8ba76-80b4-475e-9c46-b0b54ed1d64b
 
 <br/> 
 
