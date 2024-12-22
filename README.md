@@ -90,6 +90,11 @@
 
 <br/> 
 
+### Demo
+https://github.com/user-attachments/assets/a947e8f5-f1b6-4733-8a7b-5ac5646d4bda
+
+<br/> 
+
 ### Kullanılan Teknolojiler 🛠️
 - 📊 **Veri Yönetimi :** Firebase Realtime Database, kullanıcı ilerlemesi ve verilerin gerçek zamanlı senkronizasyonu için; Firebase Storage, 3D modellerin depolanması ve yönetilmesi için kullanıldı.
 - 💻 **Geliştirme Ortamı :** Android Studio, Kotlin ile uygulama geliştirme.
