@@ -9,7 +9,7 @@ YMGK DERSİ KAPSAMINDA GELİŞTİRİLEN AR PROJESİ
 ### 1. HAFTA
 Projeye ait trello panosu => [Trello](https://trello.com/b/B6tHItNl/ar-projesi-vize-final)
 
-Projenin ismi => **Eğlenceli Matematik**
+Projenin ismi => **funMATH**
 
 Proje sosyal medya hesabı => [Instagram](https://www.instagram.com/carptoplabolcikar/)
 
