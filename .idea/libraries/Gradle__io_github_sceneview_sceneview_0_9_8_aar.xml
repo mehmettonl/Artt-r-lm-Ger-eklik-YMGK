@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.sceneview:sceneview:0.9.8@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/8fbddaf4e464d201eabcdb3204c4f936/transformed/sceneview-0.9.8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/8fbddaf4e464d201eabcdb3204c4f936/transformed/sceneview-0.9.8/jars/libs/libsceneform_runtime_schemas.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/8fbddaf4e464d201eabcdb3204c4f936/transformed/sceneview-0.9.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/8fbddaf4e464d201eabcdb3204c4f936/transformed/sceneview-0.9.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.sceneview/sceneview/0.9.8/4b102c0d2d7f22f7a671a6bc137cedfbfaaa70fe/sceneview-0.9.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.sceneview/sceneview/0.9.8/ea55814ec84161232fb0db92c3ba553894e48a65/sceneview-0.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

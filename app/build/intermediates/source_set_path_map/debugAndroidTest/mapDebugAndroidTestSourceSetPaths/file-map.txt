@@ -1,0 +1,6 @@
+com.achelmas.numart.test.app-tracing-1.2.0-0 /Users/mehmetonal/.gradle/caches/transforms-4/2539b92898168e5d8f0c8c547d1d9abc/transformed/tracing-1.2.0/res
+com.achelmas.numart.test.app-core-1.6.1-1 /Users/mehmetonal/.gradle/caches/transforms-4/aa4baa833ce704121cfe3eb7c9980af7/transformed/core-1.6.1/res
+com.achelmas.numart.test.app-androidTest-2 /Users/mehmetonal/AndroidStudioProjects/NumARt/app/build/generated/res/resValues/androidTest/debug
+com.achelmas.numart.test.app-mergeDebugAndroidTestResources-3 /Users/mehmetonal/AndroidStudioProjects/NumARt/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.achelmas.numart.test.app-mergeDebugAndroidTestResources-4 /Users/mehmetonal/AndroidStudioProjects/NumARt/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.achelmas.numart.test.app-debugAndroidTest-5 /Users/mehmetonal/AndroidStudioProjects/NumARt/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

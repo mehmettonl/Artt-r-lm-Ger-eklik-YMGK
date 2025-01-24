@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <color name="backgroundColor">#F0F3F8</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="ic_launcher_background">#37A000</color>
+    <color name="primaryColor">#37A000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="app_name">NumARt</string>
+    <string name="bottomSheetLayoutOfLanguages_Application_language">Application language</string>
+    <string name="bottomSheetLayoutOfLanguages_English">English</string>
+    <string name="bottomSheetLayoutOfLanguages_Turkish">Turkish</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_an_account">Start Your Adventure!</string>
+    <string name="date_of_birth">"Date of Birth"</string>
+    <string name="dont_have_an_account">New here? Let\'s get started!</string>
+    <string name="easy_level">Easy Level</string>
+    <string name="email">Email</string>
+    <string name="email_already_exists">Email already exists. Please use a different email.</string>
+    <string name="error_occurred">Failed to load target data.</string>
+    <string name="failed_to_send_reset_email">Failed to send password reset email. Please ensure your email address is correct and try again.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_description">Enter your email, and we’ll send you a magic link to reset your password!</string>
+    <string name="forgot_password_title">Oops! Forgot something?</string>
+    <string name="forgot_password_verification">Verification</string>
+    <string name="full_name">Full name</string>
+    <string name="gcm_defaultSenderId" translatable="false">537246787023</string>
+    <string name="google_api_key" translatable="false">AIzaSyDxMbRqnF0b4BL_W3w9Ex68kL8wd3qF0w0</string>
+    <string name="google_app_id" translatable="false">1:537246787023:android:9b41c9bb9331e4c0591eba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDxMbRqnF0b4BL_W3w9Ex68kL8wd3qF0w0</string>
+    <string name="google_storage_bucket" translatable="false">numart-9fc81.firebasestorage.app</string>
+    <string name="hard_level">Hard Level</string>
+    <string name="hello_fullname">Hello ... 👋</string>
+    <string name="invalid_operation">Invalid operation!</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="log_out_message">Are you sure you want to log out ?</string>
+    <string name="log_out_success">You have successfully logged out.</string>
+    <string name="login">Log in</string>
+    <string name="login_failed">Log-in failed. Please check your credentials and try again</string>
+    <string name="login_successful">Welcome back! You have successfully logged in.</string>
+    <string name="login_to_your_account">Log in to your account</string>
+    <string name="main_activity_description">Welcome to the magical world of NumARt! 🪄 \nLet\'s play with numbers 🧮 and learn amazing things together! 📚</string>
+    <string name="medium_level">Medium Level</string>
+    <string name="next_target_already_unlocked">Next target already unlocked!</string>
+    <string name="next_target_unlock_failed">Failed to unlock next target</string>
+    <string name="next_target_unlocked">Next target unlocked!</string>
+    <string name="number_already_used">You have already used this number!</string>
+    <string name="operation_already_selected">An operation has already been selected!</string>
+    <string name="our_target">Our target :</string>
+    <string name="password">Password</string>
+    <string name="password_must_be_at_least_6_characters">Password must be at least 6 characters</string>
+    <string name="password_reset_email_sent">An email to reset your password has been sent. Please check your inbox.</string>
+    <string name="pick_levels">Pick your level and let the fun begin!</string>
+    <string name="please_enter_a_valid_email">Please enter a valid email</string>
+    <string name="please_enter_your_email">Please enter your email</string>
+    <string name="please_enter_your_fullname">Please enter your full name</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="please_select_date_of_birth">Please select your date of birth!</string>
+    <string name="project_id" translatable="false">numart-9fc81</string>
+    <string name="restart_game">Restart the game</string>
+    <string name="select_number_first">Please choose a number first!</string>
+    <string name="select_operation">Please choose an operation!</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="settingsActivity_Achraf_EL_MASOUDI">Mehmet Onal</string>
+    <string name="settingsActivity_Age">"Age : "</string>
+    <string name="settingsActivity_App_language">App language</string>
+    <string name="settingsActivity_Developed_by">Developed by</string>
+    <string name="settingsActivity_Suggestions">Give us your suggestions</string>
+    <string name="settingsActivity_logout">Log out</string>
+    <string name="settingsActivity_targetsUnlocked">"Unlocked Targets : "</string>
+    <string name="sign_up">Sign up</string>
+    <string name="signup">Sign up</string>
+    <string name="signup_successful">Congratulations! You have successfully signed up.</string>
+    <string name="something_went_wrong">Sign-up failed. Please try again.</string>
+    <string name="start_by_choosing_number">Start by choosing a number</string>
+    <string name="target_exceeded">The result exceeded the target!</string>
+    <string name="target_not_reached">Target not reached! Click the refresh button to try again.</string>
+    <string name="target_reached">Congratulations! You have reached your target! 🎉</string>
+    <string name="to_next_target">To our next target</string>
+    <string name="welcome">Hello</string>
+    <string name="welcomeback">Welcome Back, \nLittle Genius!</string>
+    <style name="Base.Theme.NumARt" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#3E37A000</item>
+    </style>
+    <style name="TheSplashScreen_Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+    </style>
+    <style name="styleOfToolbar">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="singleLine">true</item>
+    </style>
+</resources>

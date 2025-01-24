@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/xml_backup_rules.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/menu_menu_off.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/menu/menu_off.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_easy_level.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/easy_level.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_hard_level.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/hard_level.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_levels_card_item.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/levels_card_item.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_numbers.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/numbers.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_multiplication_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/multiplication_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_signin_up_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/signin_up_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_language_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/language_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/font_autoradiographic.ttf.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/font/autoradiographic.ttf"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_background_levels.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/background_levels.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_log_out_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/log_out_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_teaching_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/teaching_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_next_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/next_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_bottom_sheet_background.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/bottom_sheet_background.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_app_name.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/app_name.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_game.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_subtraction_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/subtraction_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_main.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_hard_level.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_hard_level.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_ogrenci.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/ogrenci.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_arrow_back.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_settings.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_medium_level.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_medium_level.xml"
+    },
+    {
+        "merged": "com.achelmas.numart.app-debug-75:/layout_activity_login.xml.flat",
+        "source": "com.achelmas.numart.app-main-77:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_kirmizi.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/kirmizi.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_division_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/division_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_signup.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_numart_logo.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/numart_logo.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_teaching_icon2.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/teaching_icon2.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_star_icon.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/star_icon.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/font_teko_semibold.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/font/teko_semibold.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/font_kollektif.ttf.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/font/kollektif.ttf"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_refresh_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/refresh_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_bottom_sheet_layout_of_languages.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/bottom_sheet_layout_of_languages.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_medium_level.png.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/medium_level.png"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_easy_level.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_easy_level.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_settings_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/settings_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/font_righteous.ttf.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/font/righteous.ttf"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_bar_bottom_sheet_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/bar_bottom_sheet_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_custom_background_of_signup.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/custom_background_of_signup.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_splashscreen_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/splashscreen_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_addition_icon.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/addition_icon.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_yesil.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/yesil.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/layout_activity_login.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/color_text_input_layout_stroke_color_selector.xml.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/color/text_input_layout_stroke_color_selector.xml"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/raw_loading_animation.json.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/raw/loading_animation.json"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/drawable_sari.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/drawable/sari.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-debug-75:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/mehmetonal/.gradle/daemon/8.6/com.achelmas.numart.app-main-77:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    }
+]

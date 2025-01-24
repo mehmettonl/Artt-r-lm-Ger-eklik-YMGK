@@ -1,0 +1,3 @@
+com.achelmas.numart.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
