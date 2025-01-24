@@ -50,3 +50,45 @@ FIREBASE BAĞLANTISI LOGIN REGISTER İŞLEVLERİ GERÇEKLEŞTİRİLDİ.
 
 ### 7. HAFTA
 AR ENTEGRASYONU TAMAMLANDI. GÖREV MODÜLÜ EKLENDİ.
+
+
+
+### 8. HAFTA
+Türkçe ve İngilizce dil seçenekleri eklendi. Kullanıcılar uygulamanın dilini değiştirebiliyor.
+
+---
+
+### 9. HAFTA
+
+Dark mode (Karanlık Mod) desteği eklendi. Kullanıcılar, tema tercihini ayarlar üzerinden değiştirebiliyor.
+
+### 10. HAFTA
+
+Uygulama performans testleri yapıldı. Kod optimizasyonu gerçekleştirildi ve daha hızlı yanıt süreleri elde edildi.
+
+---
+
+### 11. HAFTA
+
+Eğitsel videolar eklendi. Kullanıcılar matematik problemlerini çözmek için rehber videolara erişim sağlayabiliyor.
+
+---
+
+### 12. HAFTA
+
+Liderlik tablosu eklendi. Kullanıcılar kazandıkları puanlara göre sıralamada yer alabiliyor.
+
+---
+
+### 13. HAFTA
+
+Bildirim sistemi entegre edildi. Kullanıcılara günlük görev hatırlatmaları ve ödül bildirimleri gönderiliyor.
+
+---
+
+### 14. HAFTA
+
+Projenin genel hata düzeltmeleri tamamlandı. Final sunumu için gerekli tüm dokümantasyon hazırlandı ve uygulama demo sunumu yapıldı.
+
+---
+
