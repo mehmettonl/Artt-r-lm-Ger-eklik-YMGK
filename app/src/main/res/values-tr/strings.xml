@@ -40,7 +40,7 @@
     <string name="settingsActivity_App_language">Uygulama Dili</string>
     <string name="settingsActivity_Suggestions">Önerilerinizi bize iletin</string>
     <string name="settingsActivity_Developed_by">Geliştiren</string>
-    <string name="settingsActivity_Achraf_EL_MASOUDI">Achraf EL MASOUDI</string>
+    <string name="settingsActivity_Achraf_EL_MASOUDI">Mehmet Onal</string>
     <string name="settingsActivity_logout">Çıkış Yap</string>
     <string name="error_occurred">Hedef verileri yüklenemedi.</string>
     <string name="log_out">ÇIKIŞ YAP</string>

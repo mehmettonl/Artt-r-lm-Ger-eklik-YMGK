@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "148178928636",
-    "project_id": "numart-22363",
-    "storage_bucket": "numart-22363.firebasestorage.app"
+    "project_number": "537246787023",
+    "project_id": "numart-9fc81",
+    "storage_bucket": "numart-9fc81.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:148178928636:android:e31ccce0645f1c97ea2879",
+        "mobilesdk_app_id": "1:537246787023:android:9b41c9bb9331e4c0591eba",
         "android_client_info": {
           "package_name": "com.achelmas.numart"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAgJ-02NEhSTMFMxjBsl_X4tAxa6G1b4gs"
+          "current_key": "AIzaSyDxMbRqnF0b4BL_W3w9Ex68kL8wd3qF0w0"
         }
       ],
       "services": {

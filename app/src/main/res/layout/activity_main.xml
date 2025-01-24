@@ -16,7 +16,7 @@
             android:id="@+id/mainActivity_toolBarId"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@color/primaryColor"
+            android:background="#0AB5CC"
             app:layout_scrollFlags="scroll|snap|enterAlways"
             app:popupTheme="@style/Theme.MaterialComponents.Light"
             app:title="@string/app_name"
@@ -64,18 +64,7 @@
                     android:fontFamily="@font/righteous"
                     android:layout_height="match_parent"/>
 
-                <TextView
-                    android:text="@string/pick_levels"
-                    android:textColor="@color/gray"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="center"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:fontFamily="@font/righteous"
-                    android:textSize="12sp"
-                    android:layout_height="match_parent"/>
+
 
                 <RelativeLayout
                     android:id="@+id/mainActivity_easyLevel_relativelayoutId"
@@ -93,7 +82,7 @@
                         android:layout_marginTop="23dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/background_levels"
-                        android:backgroundTint="#FFE0B2">
+                        android:backgroundTint="#00BCD4">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -112,7 +101,7 @@
                         android:layout_height="90dp"
                         android:layout_marginRight="10dp"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/easy_level" />
+                        android:src="@drawable/yesil" />
 
                 </RelativeLayout>
 
@@ -133,7 +122,7 @@
                         android:layout_marginTop="23dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/background_levels"
-                        android:backgroundTint="#FFAB91">
+                        android:backgroundTint="#FFC107">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -151,7 +140,7 @@
                         android:layout_height="90dp"
                         android:layout_marginRight="10dp"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/medium_level" />
+                        android:src="@drawable/sari" />
 
                 </RelativeLayout>
 
@@ -172,7 +161,7 @@
                         android:layout_marginTop="23dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/background_levels"
-                        android:backgroundTint="#FF7043">
+                        android:backgroundTint="#FF0000">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -190,7 +179,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_height="90dp"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/hard_level" />
+                        android:src="@drawable/kirmizi" />
 
                 </RelativeLayout>
             </LinearLayout>
